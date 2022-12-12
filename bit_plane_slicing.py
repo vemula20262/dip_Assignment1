@@ -13,6 +13,7 @@ print(img.shape)
 for i in range(img.shape[0]):
     for j in range(img.shape[1]):
         lst.append(np.binary_repr(img[i][j], width=8))
+
 eight_bit = []
 seven_bit = []
 six_bit = []
